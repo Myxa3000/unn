@@ -56,3 +56,38 @@ using namespace std;
 //     else
 //         cout<<1./(temp[0]*temp[1]*temp[2])<<endl;
 // }
+
+
+//or 
+
+ //int factorial(int n) {
+ //    int result = 1;
+ //    for (int i = 1; i <= n; i++) {
+ //        result *= i;
+ //    }
+ //    return result;
+ //}
+
+ //int main() {
+ //    int k = 0, n, a, temp[3];
+ //    cout << "enter number of numbers\n";
+ //    cin >> n;
+ //    double m[3];
+ //    for (int i = 0; i < n; i++) {
+ //        cout << "enter " << i + 1 << " number" << endl;
+ //        cin >> a;
+ //        m[i] = a;
+ //        a = 0;
+ //    }
+ //    for (int i = 0; i < n; i++) {
+ //        if ((i+1)<m[i] && (m[i]<factorial(i)) && k <= 2) {
+ //            temp[k] = m[i];
+ //            k++;
+ //        }
+ //    }
+ //    if (temp[0]*temp[1]*temp[2] == 0) {
+ //        cout<<"no suitable numbers were found";
+ //    }
+ //    else
+ //        cout<<1./(temp[0]*temp[1]*temp[2])<<endl;
+ //}
