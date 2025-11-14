@@ -1,2 +1,2 @@
 # UNN
-This is the storage for solutions of my problems given in unversity
+This is the storage for solutions of problems given in unversity
