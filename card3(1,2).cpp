@@ -6,6 +6,9 @@ using namespace std;
 
 //card 3 (var20)
 //1
+
+
+
 // int main() {
 // 	int tmp = 0, ar[5], x = 0, y = 0, ans = 0;
 // 	for (int i = 0; i < 5; i++) {
@@ -75,3 +78,47 @@ using namespace std;
  //         cout<<sa[i]<<": "<<cnt(s, sa[i])<<endl;
  //     }
  // }
+
+
+
+//2
+
+
+// int main() {
+//      int m[12][12];
+//      for (int i = 0; i < 12; i++) {
+//          for (int j = 0; j < 12; j++) {
+//              m[i][j] = 1;
+//          }
+//      }
+
+//      cout<<"BEFORE:"<<endl;
+
+//      for (int i = 0; i < 12; i++) {
+//          for (int j = 0; j < 12; j++) {
+//              cout << m[i][j] << " ";
+//              if (j==11) {
+//                  cout << endl;
+//              }
+//          }
+//      }
+
+//      cout<<"AFTER:"<<endl;
+
+//      for (int j = 0; j < 12; j++) {
+//          for (int i = 0; i < 12; i++) {
+//              while (j>=i) {
+//                  m[i][j] = 0;
+//                  i++;
+//              }
+//          }
+//      }
+//      for (int i = 0; i < 12; i++) {
+//          for (int j = 0; j < 12; j++) {
+//              cout << m[i][j] << " ";
+//              if (j==11) {
+//                  cout << endl;
+//              }
+//          }
+//      }
+//  }
