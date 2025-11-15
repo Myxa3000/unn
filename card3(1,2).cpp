@@ -52,7 +52,7 @@ using namespace std;
 
 
 
-// методичка (8 тема вариант 20)
+// training manual (topic 8 var 20)
  // int cnt(string s, char l) {
  //     int result = 0;
  //     for (int i=0;s[i]!='\0';i++) {
